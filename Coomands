@@ -1,0 +1,2 @@
+#Create a Console application using Command Line
+ dotnet new console  --framework "net8.0"
