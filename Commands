@@ -43,12 +43,13 @@ dotnet format
 or
   "ConnString": "Server=ADMINISTRATOR\\SQLEXPRESS;Database=DigitalCurrency; Integrated Security=SSPI;  Trusted_Connection=yes;TrustServerCertificate=True;"
 
-#Install important Libraries
-Install-Package Microsoft.EntityFrameworkCore.SqlServer
+#Install important Libraries for Entityframework
 Install-Package Microsoft.Extensions.Configuration
 Install-Package Microsoft.Extensions.Configuration.Json
 Install-Package Microsoft.EntityFrameworkCore.Tools
-
+Install-Package Microsoft.EntityFrameworkCore.Design
+Install-Package Microsoft.EntityFrameworkCore.SqlServer
+Install-Package Microsoft.VisualStudio.Web.CodeGenerators.Mvc
 
 #Connection String from the appSettings.json which is an embedded resource
  string? ConnString = new ConfigurationBuilder().AddJsonFile("D:\\Programming\\EF\\Test\\appSettings.json")
