@@ -58,6 +58,8 @@ or
   Scaffold-DbContext "Server=ADMINISTRATOR\SQLEXPRESS;Database=OnlineShop; Integrated Security=SSPI;  Trusted_Connection=yes;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/Db -Table Menus -force -DataAnnotations -UseDataBasenames
 or
   Scaffold-DbContext "Server=ADMINISTRATOR\SQLEXPRESS;Database=OnlineShop;User Id=h1;Password=h1;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/Db -Table Menus -force -DataAnnotations -UseDataBasenames
+or 
+   Scaffold-DbContext "Server=ADMINISTRATOR\SQLEXPRESS;Database=OnlineShop;User Id=h1;Password=h1;TrustServerCertificate=True;" Microsoft.EntityFrameworkCore.SqlServer -OutputDir Models/Db -force -UseDataBasenames
 
 
 
