@@ -50,6 +50,8 @@ Install-Package Microsoft.EntityFrameworkCore.Tools
 Install-Package Microsoft.EntityFrameworkCore.Design
 Install-Package Microsoft.EntityFrameworkCore.SqlServer
 Install-Package Microsoft.VisualStudio.Web.CodeGenerators.Mvc
+
+#Swagger for Asp.net API
 Install-Package Swashbuckle.AspNetCore.Swagger -Version 8.1.1
 
 #Scaffold DataBase (dataBase First Method)
